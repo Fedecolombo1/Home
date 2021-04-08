@@ -1,10 +1,17 @@
 body {
     font-family: "Inconsolata", monospace;
-    color: #0d1e2d;
+    font-family: 'Spartan', sans-serif !important;
   }
 
-main{
-    padding: 40px !important;
+.banner{
+    padding: 0px 40px 0px 40px !important;
+    background: transparent;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("../images/mountain.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .align{
@@ -14,8 +21,59 @@ main{
 }
 
 .nombre{
-    margin-bottom: 40px;
-    font-size: 23px;
+    color: white !important;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-flex;
+    margin-left: 5px;
+}
+
+.hola{
+    color: white;
+    font-size: 82px;
+    font-weight: bold;
+    margin-top: 11vh !important;
+}
+
+.console-container{
+    margin-top: 70vh !important;
+}
+
+.links{
+    color: white !important;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.links:hover{
+    border-bottom: 2px solid tomato;
+    transition: 0.5s
+}
+
+.trabajos{
+    margin-top: 20vh !important;
+}
+
+.works{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.works:hover{
+    color: tomato;
+    transition: .7s;
+}
+
+.redes{
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.redes:hover{
+    color: #ff6347 !important;
+    transition: .7s;
 }
 
 a{
@@ -23,3 +81,48 @@ a{
     color: black !important;
     text-align: start;
 }
+
+.proyectos{
+    background: #f3f3f3;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.studies{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #A01C04;
+}
+
+.latest{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4a4a4a;
+}
+
+.proyecto{
+    box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+    height: 450px;
+    margin-top: 60px !important;
+    margin-bottom: 60px;
+}
+
+.experimentos{
+    background: #f3f3f3;
+    padding-top: 60px;
+}
+
+.experimento{
+    box-shadow: 0 20px 60px 0 rgb(0 0 0 / 15%);
+    
+}
+
+footer{
+    background-color: #1c1d25;
+    padding: 8% 0;
+}
+
+
+
+
