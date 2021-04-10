@@ -132,6 +132,31 @@
 	color: #FF8872;
 }
 
+.mobile{
+    display: none;
+}
+.desktop{
+    display: flex;
+}
+
+
+@media (max-width: 768px) {
+    .mobile{
+        display: flex;
+    }
+    .desktop{
+        display: none;
+    }
+
+	.word span{
+		font-size: 57px;
+	}
+	#name{
+		font-size: 57px;
+		text-align: center;
+	}
+}
+
 
 
 

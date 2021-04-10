@@ -98,7 +98,7 @@ body {
 
 a{
     text-decoration: none !important;
-    color: black !important;
+    color: white !important;
     text-align: start;
 }
 
@@ -249,3 +249,34 @@ h2.links > a {
     border: 1px solid #ffd220;
     transition: .7s;
   }
+
+
+.mobile{
+    display: none !important;
+}
+.desktop{
+    display: flex !important;
+}
+
+
+@media (max-width: 768px) {
+    .mobile{
+        display: flex !important;
+    }
+    .desk{
+        display: none !important;
+    }
+
+    .banner{
+        padding: 0px !important;
+    }
+
+    .nombre{
+        margin: 0px;
+    }
+
+    .proyecto{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
