@@ -269,6 +269,8 @@ h2.links > a {
 
     .banner{
         padding: 0px !important;
+        padding-top: 12px !important;
+        background-position-x: center;
     }
 
     .nombre{
@@ -278,5 +280,20 @@ h2.links > a {
     .proyecto{
         margin-right: 0px !important;
         margin-left: 0px !important;
+    }
+    .pContact{
+        z-index: 40 !important;
+        margin-top: 142px !important;
+    }
+    .imgToTop{
+        width: 15% !important;
+    }
+
+
+    .contacto{
+        height: 80vh;
+    }
+    .footer{
+        height: 20vh;
     }
 }
