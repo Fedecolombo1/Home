@@ -13,7 +13,7 @@ body {
     background-size: cover !important;
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("https://raw.githubusercontent.com/Fedecolombo1/portafolio/master/Images/mountain2.png");
+    background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountain2.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -79,6 +79,12 @@ body {
     font-weight: bold;
 }
 
+.titleProyect3{
+    color: #ffcc00;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .descProyect{
     color: black;
     font-size: 13px;
@@ -126,6 +132,12 @@ a{
     height: 450px;
     margin-top: 60px !important;
     margin-bottom: 60px;
+}
+
+.portafolio{
+    background-image: url("../Images/IMG-9786.JPG");
+    background-size: cover;
+    background-position: center;
 }
 
 .experimentos{
@@ -238,15 +250,15 @@ h2.links > a {
     font-size: 13px;
     font-weight: 800;
     color: white;
-    background:  #ffcc00;
-    border: 1px solid #ffcc00;
+    background:  #ffcc33;
+    border: 1px solid #ffcc33;
     padding-top: 12px;
     padding-bottom: 12px;
   }
   
   .botonB:hover{
-    background: #f0ce45;
-    border: 1px solid #ffd220;
+    background: #cc9900;
+    border: 1px solid #cc9900;
     transition: .7s;
   }
 
