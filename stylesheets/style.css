@@ -290,6 +290,10 @@ h2.links > a {
         margin: 0px;
     }
 
+    .works{
+        margin-top: 28% !important;
+    }
+
     .proyecto{
         margin-right: 0px !important;
         margin-left: 0px !important;
