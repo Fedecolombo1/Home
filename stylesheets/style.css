@@ -266,7 +266,7 @@ h2.links > a {
 .mobile{
     display: none !important;
 }
-.desktop{
+.desk{
     display: flex !important;
 }
 
