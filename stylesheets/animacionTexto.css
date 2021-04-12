@@ -120,8 +120,7 @@
 }
 
 .word span:nth-child(9).active {
-	animation: falling 2s ease-out;
-	transform-origin: bottom center;
+	animation: rotate 1s ease-out;
 }
 
 .word span:nth-child(10).active {
