@@ -116,15 +116,12 @@
 }
 
 .word span:nth-child(8).active {
-	animation: toplong 1.5s linear;
-}
-
-.word span:nth-child(9).active {
 	animation: rotate 1s ease-out;
 }
 
-.word span:nth-child(10).active {
-	animation: rotate 1s ease-out;
+.word span #name .active {
+	animation: falling 2s ease-out;
+	transform-origin: bottom center;
 }
 
 #name{

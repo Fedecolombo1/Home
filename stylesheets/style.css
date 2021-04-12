@@ -11,7 +11,7 @@ body {
     padding: 20px 40px 0px 40px !important;
     background: transparent;
     background-size: cover !important;
-    height: 100% !important;
+    height: 100vh;
     background-attachment: fixed;
     background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountain2.png");
     background-size: 100%;
@@ -283,6 +283,7 @@ h2.links > a {
         padding: 0px !important;
         padding-top: 12px !important;
         background-position-x: center !important;
+        height: 70%;
     }
 
     .nombre{
