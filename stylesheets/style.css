@@ -308,9 +308,9 @@ h2.links > a {
 
 
     .contacto{
-        height: 80vh !important;
+        height: 100% !important;
     }
     .footer{
-        height: 20vh !important;
+        height: 100% !important;
     }
 }
