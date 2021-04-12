@@ -283,7 +283,7 @@ h2.links > a {
         padding: 0px !important;
         padding-top: 12px !important;
         background-position-x: center !important;
-        height: 70%;
+        height: 70vh !important;
     }
 
     .nombre{
