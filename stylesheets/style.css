@@ -134,6 +134,45 @@ a{
     margin-bottom: 60px;
 }
 
+.proyecto:hover .num{
+    color: white;
+    transition: 0.3s;
+    transform: translatey(10px);
+    transform-origin: bottom left;
+}
+
+.proyecto:hover .num.kliv{
+    color: #1e7a5e !important;
+    transition: 0.3s;
+    transform: translatey(10px);
+    transform-origin: bottom left;
+}
+
+.proyecto:hover .num.protec{
+    color: #ffcc00 !important;
+    transition: 0.3s;
+    transform: translatey(10px);
+    transform-origin: bottom left;
+}
+
+.num{
+    font-size: 119px;
+    margin-left: 38.5%;
+    margin-top: -8%;
+    font-weight: bolder;
+    position: absolute;
+    color: #99999d;;
+}
+
+.num.protec{
+    font-size: 119px;
+    margin-left: -34%;
+    margin-top: -8%;
+    font-weight: bolder;
+    position: absolute;
+    color: #99999d;;
+}
+
 .portafolio{
     background-image: url("../Images/IMG-9786.JPG");
     background-size: cover;
@@ -148,24 +187,25 @@ a{
 .experimento{
     box-shadow: 0 20px 60px 0 rgb(0 0 0 / 15%);
     height: 418px;
+    padding: 0px !important;
 }
 
 .titleExp{
     font-weight: bold;
     font-size: 14px;
     padding: 0px;
-    margin-bottom: -20%;
+    color: black !important;
 }
 
 .nameExp{
     font-weight: 400;
     font-size: 14px;
     padding: 0px;
+    color: black !important;
 }
 
 .gifTesla{
     border-radius: 400px ;
-    margin-bottom: -5%;
 }
 
 .contacto{
@@ -312,5 +352,17 @@ h2.links > a {
     }
     .footer{
         height: 100% !important;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .num{
+        font-size: 117px;
+        margin-left: 32%;
+        margin-top: -13%;
+        font-weight: bolder;
+        position: absolute;
+        color: #99999d;;
     }
 }
