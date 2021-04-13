@@ -364,7 +364,7 @@ h2.links > a {
 @media only screen and (max-width: 1440px) and (min-width: 768px) {
     .num{
         font-size: 117px;
-        margin-left: 32%;
+        margin-left: 50%;
         margin-top: -13%;
         font-weight: bolder;
         position: absolute;
@@ -373,7 +373,16 @@ h2.links > a {
 
     .num.kliv{
         font-size: 117px;
-        margin-left: 32%;
+        margin-left: 50%;
+        margin-top: -8%;
+        font-weight: bolder;
+        position: absolute;
+        color: #99999d;;
+    }
+
+    .num.num.protec{
+        font-size: 117px;
+        margin-left: -46%;
         margin-top: -8%;
         font-weight: bolder;
         position: absolute;
