@@ -365,4 +365,18 @@ h2.links > a {
         position: absolute;
         color: #99999d;;
     }
+
+    .num.kliv{
+        font-size: 117px;
+        margin-left: 32%;
+        margin-top: -8%;
+        font-weight: bolder;
+        position: absolute;
+        color: #99999d;;
+    }
+
+    .proyecto{
+        flex: 0 0 auto !important;
+        width: 66.6666666667% !important;
+    }
 }
