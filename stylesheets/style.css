@@ -1,10 +1,11 @@
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body {
     font-family: "Inconsolata", monospace;
     font-family: 'Spartan', sans-serif !important;
+    scroll-behavior: smooth !important;
   }
 
 .banner{
