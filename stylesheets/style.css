@@ -353,10 +353,15 @@ h2.links > a {
     .footer{
         height: 100% !important;
     }
+
+    .proyecto{
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
 }
 
 
-@media (max-width: 1440px) {
+@media only screen and (max-width: 1440px) and (min-width: 768px) {
     .num{
         font-size: 117px;
         margin-left: 32%;
