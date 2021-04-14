@@ -325,6 +325,7 @@ h2.links > a {
         padding-top: 12px !important;
         background-position-x: center !important;
         height: 100vh !important;
+        background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountainMobile.png");
     }
 
     .nombre{
