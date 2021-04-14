@@ -324,12 +324,17 @@ h2.links > a {
         padding: 0px !important;
         padding-top: 12px !important;
         background-position-x: center !important;
+        background-position-y: center !important;
         height: 100vh !important;
         background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountainMobile.png");
     }
 
     .nombre{
         margin: 0px;
+    }
+
+    .bandera{
+        width: 4% !important;
     }
 
     .trabajos{
