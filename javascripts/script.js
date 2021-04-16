@@ -1,5 +1,36 @@
 window.addEventListener("load", function(){
+
+	$('.count').each(function() {
+
+		$(this).prop('counter', 0).animate({
+	  
+		  counter: $(this).text()
+	  
+		}, {
+	  
+		  duration: 1200,
+	  
+		  easing: 'swing',
+	  
+		  step: function(now) {
+	  
+			$(this).text(Math.ceil(now));
+		  }
+		});
+	  });
+
+	$(function(){
+		setTimeout(function(){
+		  $('#cargando').addClass("inactivo").removeClass("activo");
+		},1300);
+	});
+	$(function(){
+		setTimeout(function(){
+		  $('#cargando2').addClass("inactivo").removeClass("activo");
+		},1300);
+	});
 	
+
 
 	const spans = document.querySelectorAll('.word span');
 

@@ -2,11 +2,17 @@ html{
     scroll-behavior: smooth !important;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 body {
     font-family: "Inconsolata", monospace;
     font-family: 'Spartan', sans-serif !important;
     scroll-behavior: smooth !important;
+    background: #111 !important;
   }
+
 
 .banner{
     padding: 20px 40px 0px 40px !important;
@@ -14,7 +20,8 @@ body {
     background-size: cover !important;
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountain2.png");
+    /*background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountain2.png");*/
+    background-color: #17181c;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -25,6 +32,21 @@ body {
     align-items: center;
 }
 
+.title{
+    background-image: url(https://media.giphy.com/media/l0MYQRbcEk1gyxhyE/giphy.gif);
+	
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.desc{
+    color: white;
+    text-align: start;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 10px;
+}
 
 .nombre{
     color: white !important;
@@ -54,7 +76,7 @@ body {
 
 
 .trabajos{
-    margin-top: 37vh !important;
+    margin-top: 68vh !important;
 }
 
 .works{
@@ -313,6 +335,10 @@ h2.links > a {
 
 
 @media (max-width: 768px) {
+    html{
+        scroll-behavior: smooth !important;
+    }
+
     .mobile{
         display: flex !important;
     }
@@ -326,11 +352,24 @@ h2.links > a {
         background-position-x: center !important;
         background-position-y: center !important;
         height: 100vh !important;
-        background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountainMobile.png");
+        /*background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountainMobile.png");*/
+        background-color: #17181c;
     }
 
     .nombre{
         margin: 0px;
+    }
+
+    h1.layer{
+        font-size: 35px !important;
+        font-weight: bolder;
+    }
+
+    h3.layer{
+        font-size: 19px !important;
+        font-family: Times New Roman,serif !important;
+        font-style: italic;
+        font-weight: 400;
     }
 
     .bandera{
@@ -338,7 +377,7 @@ h2.links > a {
     }
 
     .trabajos{
-        margin-top: 28% !important;
+        margin-top: 152% !important;
     }
 
     .proyecto{

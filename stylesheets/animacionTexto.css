@@ -14,8 +14,8 @@
 }
 
 .word span:nth-child(1).active {
-	animation: balance 1.5s ease-out;
-	transform-origin: bottom left;
+	animation: balance 1s ease-in-out;
+	transform-origin: bottom center;
 }
 
 @keyframes balance {
@@ -24,12 +24,12 @@
 	}
 	
 	30%, 60% {
-		transform: rotate(-45deg);
+		transform: rotate(-15deg);
 	}
 }
 
 .word span:nth-child(2).active {
-	animation: shrinkjump 1s ease-in-out;
+	animation: falling 2s ease-out;
 	transform-origin: bottom center;
 }
 
@@ -47,10 +47,10 @@
 	}
 }
 
-.word span:nth-child(3).active {
+/*.word span:nth-child(3).active {
 	animation: falling 2s ease-out;
 	transform-origin: bottom center;
-}
+}*/
 
 @keyframes falling {
 	12% {
@@ -78,9 +78,9 @@
 	}
 }
 
-.word span:nth-child(4).active {
+/*.word span:nth-child(4).active {
 	animation: rotate 1s ease-out;
-}
+}*/
 
 @keyframes rotate {
 	20%, 80% {
@@ -92,9 +92,9 @@
 	}
 }
 
-.word span:nth-child(5).active {
+/*.word span:nth-child(5).active {
 	animation: toplong 1.5s linear;
-}
+}*/
 
 @keyframes toplong {
 	10%, 40% {
@@ -106,26 +106,17 @@
 	}
 }
 
-.word span:nth-child(6).active {
-	animation: falling 2s ease-out;
-	transform-origin: bottom center;
-}
-
-.word span:nth-child(7).active {
-	animation: rotate 1s ease-out;
-}
-
-.word span:nth-child(8).active {
-	animation: rotate 1s ease-out;
-}
-
-.word span #name .active {
-	animation: falling 2s ease-out;
-	transform-origin: bottom center;
-}
 
 #name{
 	color: #FF8872;
+	color: white !important;
+}
+
+#desc{
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 10px;
 }
 
 .mobile{
