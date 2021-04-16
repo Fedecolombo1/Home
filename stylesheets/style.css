@@ -20,7 +20,6 @@ body {
     background-size: cover !important;
     height: 100vh;
     background-attachment: fixed;
-    /*background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountain2.png");*/
     background-color: #17181c;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -352,7 +351,6 @@ h2.links > a {
         background-position-x: center !important;
         background-position-y: center !important;
         height: 100vh !important;
-        /*background-image: url("https://raw.githubusercontent.com/Fedecolombo1/Home/master/Images/mountainMobile.png");*/
         background-color: #17181c;
     }
 
