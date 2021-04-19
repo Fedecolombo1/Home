@@ -77,7 +77,7 @@ body {
 
 
 
-.trabajos{
+#proyectos{
     margin-top: 68vh !important;
 }
 
@@ -359,6 +359,10 @@ h2.links > a {
 
     .nombre{
         margin: 0px;
+    }
+
+    #proyectos{
+        margin-top: 59vh !important;
     }
 
     h1.layer{
