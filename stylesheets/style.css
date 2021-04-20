@@ -77,8 +77,8 @@ body {
 
 
 
-#proyectos{
-    margin-top: 68vh !important;
+.botonTrabajos{
+    margin-top: 69vh !important;
 }
 
 .works{
@@ -362,7 +362,7 @@ h2.links > a {
     }
 
     #proyectos{
-        margin-top: 59vh !important;
+        
     }
 
     h1.layer{
