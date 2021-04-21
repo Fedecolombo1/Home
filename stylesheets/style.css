@@ -250,6 +250,44 @@ a{
     font-weight: bold;
 }
 
+
+.icono{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3.skillName{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+.otras{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 footer{
     /*background-color: #1c1d25;*/
     background-color: #17181c;
@@ -303,11 +341,14 @@ h2.links > a {
     border: 1px solid #1e7a5e;
     padding-top: 12px;
     padding-bottom: 12px;
+    transform: scale(1.0);
+    transition: .7s;
   }
   
   .botonA:hover{
     background: #3bb59e;
     border: 1px solid #3bb59e;
+    transform: scale(1.1);
     transition: .7s;
   }
   .botonB{
@@ -319,11 +360,33 @@ h2.links > a {
     border: 1px solid #ffcc33;
     padding-top: 12px;
     padding-bottom: 12px;
+    transform: scale(1.0);
+    transition: .7s;
   }
   
   .botonB:hover{
     background: #cc9900;
     border: 1px solid #cc9900;
+    transform: scale(1.1);
+    transition: .7s;
+  }
+  .botonC{
+    border: none;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient( 105.3deg,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% );
+    z-index: 10000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transform: scale(1.0);
+    transition: .7s;
+  }
+  
+  .botonC:hover{
+    background: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    transform: scale(1.1);
     transition: .7s;
   }
 
