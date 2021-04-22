@@ -10,6 +10,7 @@
     <link rel='stylesheet' href='./stylesheets/hamburger.css' />
     <link rel='stylesheet' href='./stylesheets/loading.css' />
     <link rel='stylesheet' href='./stylesheets/parallax.css' />
+    <link rel='stylesheet' href='./stylesheets/timeline.css' />
     
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     
@@ -56,19 +57,20 @@
 
             <section id="top" class="col-12 row align banner">
 
-                <header class="row col-12 align desk" style="justify-content: space-between;z-index: 500;">
-                    <a class="col-4" href="https://fedecolombo1.github.io/Home/"><img src="./Images/logo.png" alt="" class="col-2"><h1 class="col-6 nombre"></h1></a>
+                <header class="row col-12 align desk" style="justify-content: space-between;z-index: 500; width: 80%;">
+                    <a class="col-4" href="https://fedecolombo1.github.io/Home/"><h1 class="col-12 nombre">FC</h1></a>
                     
-                    <div class="col-4 row align" style="justify-content: flex-end;">
-                        <h2 class="col-4 align links"><a href="#proyectos"> Works </a></h2>
-                        <h2 class="col-4 align links"><a href="#experimentos"> Experiments </a></h2>
-                        <h2 class="col-4 align links"><a href="#contacto"> Contact </a></h2>
+                    <div class="col-6 row align" style="justify-content: flex-end;">
+                        <h2 class="col-3 align links"><a href="#proyectos"> Works </a></h2>
+                        <h2 class="col-3 align links"><a href="#experimentos"> Experiments </a></h2>
+                        <h2 class="col-3 align links"><a href="#contacto"> Contact </a></h2>
+                        <h2 class="col-3 align links"><a href="#estudios1"> Education </a></h2>
                     </div>
                 </header>
 
                 <header class="row col-12 align mobile" style="justify-content: space-between;z-index: 2000;">
                     <a id="logo" class="col-6 row align" style="justify-content: flex-start;" href="https://fedecolombo1.github.io/Home/">
-                        <img src="./Images/logo.png" alt="" class="col-5">
+                        <h1 class="col-12 nombre">FC</h1>
                     </a>
                     
                     <nav class="col-6 row align" style="justify-content: flex-end;z-index: 2000 !important;">
@@ -91,7 +93,7 @@
                             <h2 class="col-7 align linkss" style="justify-content: start;"><a href="#proyectos"> Works </a></h2>
                             <h2 class="col-7 align linkss" style="justify-content: start;"><a href="#experimentos"> Experiments </a></h2>
                             <h2 class="col-7 align linkss" style="justify-content: start;"><a href="#contacto"> Contact </a></h2>
-
+                            <h2 class="col-7 align linkss" style="justify-content: start;"><a href="#estudios"> Education </a></h2>
                         </div>
                         
                         <div class="row align col-12" style="padding-top: 20%;">
@@ -162,7 +164,7 @@
                     <img src="./Images/paralax/12.png" data-speed="4" class="layer">
                     <div class="col-12 row align" style="text-align: center;">
                         <h1 class="layer col-12" data-speed="0.3">Federico Colombo</h1>
-                        <h3 class="layer col-12" data-speed="0.3">Interactive Front-end Developer</h3>
+                        <h3 class="layer col-12" data-speed="0.3">Interactive Front-end Developer / UX/UI Designer</h3>
                         <a class="align desk" style="z-index: 10000;" href="#contacto"><button class="col-1 botonC">About Me</button></a>
                         <a class="align mobile" style="z-index: 10000;" href="#contacto2"><button class="col-4 botonC">About Me</button></a>
                     </div>
@@ -338,7 +340,48 @@
                    <h3 class="skillName col-2">APIs</h3>
                    
                    
-                    
+                    <div id="estudios1" class="col-12" style="margin-top: 80px;">
+                        <h1 class="txtContact">Education</h1>
+                        <div class="timeline">
+                            <ul>
+                              <li class="align" style="background-color: #0093E9;
+                              background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+                              ">
+                                <div class="timeline-content">
+                                  <h3 class="date">20th may, 2020</h3>
+                                  <h1>Digital House - Desarrollador Full Stack</h1>
+                                </div>
+                              </li>
+                              <li class="align" style="background-color: #21D4FD;
+                              background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+                              ">
+                                <div class="timeline-content">
+                                  <h3 class="date">20th may, 2010</h3>
+                                  <h1>CoderHouse - React Js</h1>
+                                  
+                                </div>
+                              </li>
+                              <li class="align" style="background-color: #4158D0;
+                              background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+                              ">
+                                <div class="timeline-content">
+                                  <h3 class="date">20th may, 2010</h3>
+                                  <h1>CoderHouse - Diseño Ux/Ui</h1>
+                                  
+                                </div>
+                              </li>
+                              <li class="align" style="background-color: #FFE53B;
+                              background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+                              ">
+                                <div class="timeline-content">
+                                  <h3 class="date">20th may, 2010</h3>
+                                  <h1>Universidad ORT - Analista de sistemas</h1>
+                                  
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                    </div>
                     
                 </div>
             </section>
@@ -402,13 +445,53 @@
                    <h3 class="skillName col-4">MVC pattern</h3>
                    <h3 class="skillName col-4">APIs</h3>
                    
-                   
-                    
+                   <div id="estudios" class="col-12" style="margin-top: 80px;">
+                        <h1 class="txtContact">Education</h1>
+                        <div class="timeline">
+                            <ul>
+                            <li class="align" style="background-color: #0093E9;
+                            background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+                            ">
+                                <div class="timeline-content">
+                                <h3 class="date">12th may, 2020 - 20th aug, 2020</h3>
+                                <h1>Digital House - Desarrollador Full Stack</h1>
+                                </div>
+                            </li>
+                            <li class="align" style="background-color: #21D4FD;
+                            background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+                            ">
+                                <div class="timeline-content">
+                                <h3 class="date">20th may, 2021 - 2021</h3>
+                                <h1>CoderHouse - React Js</h1>
+                                
+                                </div>
+                            </li>
+                            <li class="align" style="background-color: #4158D0;
+                            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+                            ">
+                                <div class="timeline-content">
+                                <h3 class="date">26th apr, 2021 - 2021</h3>
+                                <h1>CoderHouse - Diseño Ux/Ui</h1>
+                                
+                                </div>
+                            </li>
+                            <li class="align" style="background-color: #FFE53B;
+                            background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+                            ">
+                                <div class="timeline-content">
+                                <h3 class="date">2nd aug, 2021 - 2023</h3>
+                                <h1>Universidad ORT - Analista de sistemas</h1>
+                                
+                                </div>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
                     
                 </div>
             </section>
 
-            <footer class="col-12 row align footer">
+            <!--<footer class="col-12 row align footer">
 
                 <div class="col-12 align">
                     <a href="#top" class="col-12 align"> <img src="./Images/favicon nuevo.png" class="imgToTop" style="margin-bottom: 30px;width: 5%;" alt=""></a>
@@ -419,6 +502,17 @@
                     <h2 class="col-4 col-lg-2 align links" style="font-weight: lighter;"><a href="https://github.com/Fedecolombo1"> Github </a></h2>
                 </div>
                 <h3 class="studies col-12 col-lg-7 align" style="color: white;font-size: 12px;font-weight: lighter; margin-bottom: 0px;">© 2021 Federico Colombo - VAT 02847960305</h3>
+            </footer>-->
+
+            <footer class="col-12 row align footer">
+                <h3 class="studies col-6 col-lg-3 align" style="color: white;font-size: 12px;font-weight: lighter; margin-bottom: 0px;justify-content: flex-start;">© 2021 Federico Colombo</h3>
+                <div class="col-12 col-lg-6 align desk">
+                    <h2 class="col-4 col-lg-2 align links" style="font-weight: lighter;"><a href="https://www.instagram.com/fedecolombo_/"> Instagram </a></h2>
+                    <h2 class="col-4 col-lg-2 align links" style="font-weight: lighter;"><a href="https://www.linkedin.com/in/federicocolombo1/"> Linkedin </a></h2>
+                    <h2 class="col-4 col-lg-2 align links" style="font-weight: lighter;"><a href="https://github.com/Fedecolombo1"> Github </a></h2>
+                </div>
+                <a href="#top" class="col-6 col-lg-3 align"> <h3 class="studies col-12 align" style="color: white;font-size: 12px;font-weight: lighter; margin-bottom: 0px;justify-content: flex-end;">Back to Top <span class="fa-stack fa-lg">
+                    <i class="fa fa-arrow-up animated fa-stack-1x"></i></h3></a>
             </footer>
 
         </div>

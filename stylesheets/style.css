@@ -52,7 +52,7 @@ body {
 
 .nombre{
     color: white !important;
-    font-size: 17px;
+    font-size: 40px;
     font-weight: bold;
     display: inline-flex;
     margin-left: 5px;
@@ -291,7 +291,8 @@ h3.skillName{
 footer{
     /*background-color: #1c1d25;*/
     background-color: #17181c;
-    padding: 2% 0 !important;
+    padding-top: 2% !important;
+    padding-bottom: 1% !important;
 }
 
 .redesTxt{
